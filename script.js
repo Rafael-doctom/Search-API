@@ -12,6 +12,6 @@ function clicar (){
         console.log(endereco.ddd)
     })
     .catch(error => {
-        console.log("deu merda")
+        console.log("erro")
     }) 
 }
