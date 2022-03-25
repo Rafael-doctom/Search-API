@@ -1,0 +1,36 @@
+body{
+    background: #e7e7e7;
+}
+
+.container{
+text-align: center;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin: auto;
+}
+
+.flex-item button, input{
+    border: 1px solid tomato;
+    border-radius: 100px ;
+    padding: 0.5rem;
+    margin: 6px;
+}
+
+.flex-item button{
+    padding: 0.5rem;
+}
+
+.flex-item input{
+    padding: 0.5rem;
+}
+
+#contador{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
