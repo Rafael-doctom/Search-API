@@ -1,36 +1,67 @@
-body{
-    background: #e7e7e7;
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body {
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(34,152,241);
+    background: linear-gradient(90deg, rgba(34,152,241,1) 0%, rgba(34,175,241,1) 100%);
+}
+
+input, button {
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+}
+
+input {
+    background-color: #d4e8ff;
+    color: #06224a;
+    width: 500px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #06224a;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #010d1f;
+    transition: 0.3s;
 }
 
 .container{
-text-align: center;
-}
-
-.flex-item{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    align-items: center;
-    margin: auto;
-}
-
-.flex-item button, input{
-    border: 1px solid tomato;
-    border-radius: 100px ;
-    padding: 0.5rem;
-    margin: 6px;
-}
-
-.flex-item button{
-    padding: 0.5rem;
-}
-
-.flex-item input{
-    padding: 0.5rem;
+    text-align: center;
 }
 
 #contador{
-    display: flex;
-    flex-direction: column;
-    color: black;
+    margin-top: 20px;
+    height: 200px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #050404;
+}
+
+@media (max-width: 1024px){
+    body{
+        flex-direction: column;
+    }
+
+    input{
+        width: 280px;
+        margin: 15px;
+    }
 }
