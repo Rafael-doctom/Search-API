@@ -52,7 +52,8 @@ button:hover {
     height: 200px;
     font-size: 1.25em;
     font-weight: bold;
-    color: #050404;
+    color: white;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1024px){
