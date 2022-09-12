@@ -1,3 +1,7 @@
+var btnClicar = document.getElementById("btn-clicar")
+
+btnClicar.addEventListener("click", clicar)
+
 function clicar (){
     const cep = document.getElementById("cep").value
     const px = document.getElementById("contador")
